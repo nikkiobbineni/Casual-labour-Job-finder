@@ -1,0 +1,150 @@
+.loginChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 2px solid var(--color-mediumseagreen);
+  box-sizing: border-box;
+  width: 150px;
+  height: 61px;
+}
+.login1 {
+  position: absolute;
+  top: 15px;
+  left: 43px;
+}
+.login,
+.signupChild {
+  position: absolute;
+  width: 150px;
+  height: 61px;
+}
+.login {
+  top: 20px;
+  right: 23vw;
+  cursor: pointer;
+  text-align: center;
+  color: var(--color-mediumseagreen);
+}
+.signupChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumseagreen);
+}
+.signUp {
+  position: absolute;
+  top: 15px;
+  left: 29px;
+}
+.getStartedChild,
+.signup {
+  position: absolute;
+  height: 61px;
+}
+.signup {
+  top: 20px;
+  right: 10vw;
+  width: 150px;
+  cursor: pointer;
+  text-align: center;
+  color: var(--color-white);
+}
+.getStartedChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumseagreen);
+  width: 280px;
+}
+.getStarted,
+.idLikeTo {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.getStarted {
+  top: 940px;
+  left: 60vw;
+  width: 15px;
+  height: 61px;
+  cursor: pointer;
+  text-align: center;
+  color: var(--color-white);
+}
+.landingPageChild {
+  position: absolute;
+  top: 103px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 1920px;
+  height: 372px;
+}
+.weFind {
+  margin: 0;
+}
+.weFindWeContainer {
+  position: absolute;
+  top: 158px;
+  left: 183px;
+  font-size: var(--font-size-41xl);
+}
+.companyName,
+.weTakeTheContainer {
+  position: absolute;
+  display: inline-block;
+}
+.companyName {
+  top: 26px;
+  left: 39px;
+  font-size: var(--font-size-17xl);
+  font-weight: 600;
+  color: var(--color-mediumseagreen);
+  width: 279px;
+  height: 55px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.weTakeTheContainer {
+  top: 318px;
+  left: 179px;
+  width: 522px;
+}
+.icon,
+.icon1 {
+  position: absolute;
+  top: 103px;
+  right: 10vw;
+  width: 40vw;
+  height: 40vh;
+}
+.icon1 {
+  top: 533px;
+  left: 4vw;
+  border-radius: var(--br-3xs);
+}
+.howWeWork,
+.lookingToFillContainer {
+  position: absolute;
+  margin-top: 20px;
+  top: 514px;
+  right: 17vw;
+  font-size: var(--font-size-41xl);
+}
+.lookingToFillContainer {
+  top: 604px;
+  font-size: var(--font-size-mini);
+  display: inline-block;
+  width: 513px;
+  height: 308px;
+}
+.landingPage {
+  position: relative;
+  background-color: #f8f8f8;
+  width: 100vw;
+  height: 100vh;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

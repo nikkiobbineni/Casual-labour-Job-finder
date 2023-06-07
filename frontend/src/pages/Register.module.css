@@ -1,0 +1,186 @@
+.imageIcon,
+.leftbackground {
+  position: absolute;
+  left: 0;
+  width: 50vw;
+}
+.leftbackground {
+  top: 0;
+  background-color: var(--color-mediumseagreen);
+  height: 100vh
+}
+.imageIcon {
+  top: 200px;
+  height: 883px;
+  overflow: hidden;
+}
+.subtext,
+.titletext {
+  position: absolute;
+  display: inline-block;
+}
+.titletext {
+  top: 84px;
+  left: 0;
+  width: 50vw;
+  height: 84px;
+}
+.subtext {
+  top: 178px;
+  padding: 20px;
+  left: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 300;
+  width: 48vw;
+}
+.leftsection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 1083px;
+}
+.confirmpassword,
+.enterEmailId,
+.enterFirstName,
+.enterLastName,
+.enterPassword,
+.enterUsername {
+  position: absolute;
+  top: 302px;
+  left: 7px;
+  padding: 1px 0px 1px 10px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 500px;
+  height: 60px;
+}
+.confirmpassword,
+.enterFirstName,
+.enterLastName,
+.enterPassword,
+.enterUsername {
+  
+  top: 202px;
+}
+.confirmpassword,
+.enterFirstName,
+.enterLastName,
+.enterPassword {
+  top: 100px;
+  width: 240px;
+}
+.confirmpassword,
+.enterLastName,
+.enterPassword {
+  left: 267px;
+}
+.confirmpassword,
+.enterPassword {
+  top: 400px;
+  left: 7px;
+}
+.confirmpassword {
+  left: 267px;
+}
+.emailId,
+.username {
+  position: absolute;
+  top: 286px;
+  left: 7px;
+}
+.username {
+  top: 185px;
+}
+.firstName,
+.lastName,
+.signUp {
+  position: absolute;
+  top: 82px;
+  left: 7px;
+}
+.lastName,
+.signUp {
+  left: 267px;
+}
+.signUp {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-31xl);
+  display: inline-block;
+  width: 190px;
+}
+.confirmPassword,
+.password {
+  position: absolute;
+  top: 382px;
+  left: 7px;
+}
+.confirmPassword {
+  left: 267px;
+}
+.alreadyAUser,
+.login {
+  position: absolute;
+  top: 585px;
+  left: 160px;
+}
+.login {
+  left: 286px;
+  text-decoration: underline;
+  color: var(--color-mediumseagreen);
+  cursor: pointer;
+}
+.signupbutton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumseagreen);
+  width: 400px;
+  height: 60px;
+}
+.signUp1,
+.signup {
+  position: absolute;
+  top: 15px;
+  left: 154px;
+}
+.signup {
+  top: 510px;
+  left: 57px;
+  width: 20vw;
+  height: 60px;
+  cursor: pointer;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.signupform {
+  position: absolute;
+  top: 249px;
+  right: 6vw;
+  width: 30vw;
+  height: 603px;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+}
+.register {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100vw;
+  height: 1080px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.swal-confirm {
+  background-color: #4BB543 !important;
+  border-color: #4BB543 !important;
+  color: #ffffff !important;
+}
+
+.swal-icon--warning {
+  color: #4BB543 !important;
+}

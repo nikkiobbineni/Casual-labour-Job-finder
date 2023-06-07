@@ -1,0 +1,309 @@
+.navbar1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 100vw;
+  height: 103px;
+}
+.profileImageIcon {
+  position: absolute;
+  top: 21px;
+  left: 90vw;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.faq {
+  position: absolute;
+  left: 40vw;
+  width: 2vw;
+  height: 21px;
+}
+.contactUs,
+.faq,
+.home {
+  top: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.home {
+  position: absolute;
+  left: 0;
+  width: 55.3px;
+  height: 21px;
+  cursor: pointer;
+}
+.contactUs {
+  left: 0;
+  width: 102.86px;
+}
+.contactUs,
+.faqParent,
+.jobsResponses {
+  position: absolute;
+  padding: 2px 5vw;
+  left: 20vw;
+  height: 21px;
+}
+.jobsResponses {
+  top: 0;
+  left: 5vw;
+  font-weight: 600;
+  color: var(--color-mediumseagreen);
+  display: inline-block;
+  width: 169.22px;
+}
+.faqParent {
+  top: 40px;
+  left: 25vw;
+  width: 30vw;
+}
+.companyName,
+.logout {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.companyName {
+  top: 25px;
+  left: 21px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-mediumseagreen);
+  width: 17vw;
+  height: 56px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logout {
+  top: 40px;
+  left: 75vw;
+  color: var(--color-red);
+  width: 60px;
+  height: 17px;
+  cursor: pointer;
+}
+.center,
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;   
+  height: 103px;
+}
+.center {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 813px;
+  height: 714px;
+}
+.enterstartdate,
+.entervacancies {
+  background-color: var(--color-gainsboro);
+}
+.entervacancies {
+  position: absolute;
+  top: 125px;
+  left: 446px;
+  border-radius: var(--br-3xs);
+  width: 88px;
+  height: 50px;
+}
+.enterstartdate {
+  top: 240px;
+  left: 0;
+  width: 250px;
+}
+.enterarea,
+.enterenddate,
+.enterstartdate {
+  position: absolute;
+  border-radius: var(--br-3xs);
+  height: 50px;
+}
+.enterenddate {
+  top: 240px;
+  left: 284px;
+  background-color: var(--color-gainsboro);
+  width: 250px;
+}
+.enterarea {
+  top: 350px;
+  left: 0;
+  width: 197px;
+}
+.enterarea,
+.enterlocation,
+.enterphone {
+  background-color: var(--color-gainsboro);
+}
+.enterlocation {
+  position: absolute;
+  top: 351px;
+  left: 215px;
+  border-radius: var(--br-3xs);
+  width: 319px;
+  height: 50px;
+}
+.enterphone {
+  top: 20px;
+  left: 0;
+  width: 194px;
+}
+.enteremail,
+.enterphone,
+.enterwages,
+.enterwagestypeIcon {
+  position: absolute;
+  border-radius: var(--br-3xs);
+  height: 50px;
+  /* left: 200000px; */
+}
+.enteremail {
+  top: 20px;
+  left: 215px;
+  background-color: var(--color-gainsboro);
+  width: 319px;
+}
+.enterwages,
+.enterwagestypeIcon {
+  top: 125px;
+  left: 0;
+  width: 164px;
+}
+.enterwages {
+  left: 0px;
+  background-color: var(--color-gainsboro);
+  width: 243px;
+}
+.phoneNoPoc {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.dropdownWagesChild,
+.emailIdPoc {
+  position: absolute;
+  top: 0;
+  left: 306px;
+}
+.dropdownWagesChild {
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 30px;
+  height: 30px;
+}
+.dropdownWages,
+.dropdownWagesItem {
+  position: absolute;
+  top: 10px;
+  left: 6.34px;
+  width: 17.32px;
+  height: 15px;
+}
+.dropdownWages {
+  top: 136px;
+  left: 125px;
+  width: 30px;
+  height: 30px;
+}
+.wages {
+  position: absolute;
+  top: 107px;
+  left: 0;
+}
+.area,
+.startDate,
+.vacancies {
+  position: absolute;
+  top: 222px;
+  left: 0;
+}
+.area,
+.vacancies {
+  top: 332px;
+}
+.vacancies {
+  top: 107px;
+  left: 446px;
+}
+.endDate,
+.location {
+  position: absolute;
+  top: 332px;
+  left: 218px;
+}
+.endDate {
+  top: 222px;
+  left: 284px;
+}
+.postbutton {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumseagreen);
+  height: 60px;
+  cursor: pointer;
+}
+.post,
+.post1,
+.postbutton {
+  position: absolute;
+  width: 250px;
+}
+.post1 {
+  top: 15px;
+  left: 0;
+  display: inline-block;
+}
+.post {
+  top: 431px;
+  left: 131px;
+  height: 60px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.newjobform {
+  position: absolute;
+  top: 194px;
+  left: 145px;
+  width: 534px;
+  height: 491px;
+}
+.justAFew {
+  position: absolute;
+  top: 125px;
+  left: 0;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  width: 813px;
+}
+.youreAlmostThere {
+  position: absolute;
+  top: 60px;
+  left: 325px;
+  font-size: var(--font-size-mid);
+  font-weight: 600;
+  text-align: left;
+}
+.newjob2 {
+  position: absolute;
+  top: 215px;
+  left: 30vw;
+  width: 813px;
+  height: 714px;
+  text-align: center;
+  font-size: var(--font-size-mini);
+}
+.newJobpage2 {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,234 @@
+.navbar1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1920px;
+  height: 103px;
+}
+.profileImageIcon {
+  position: absolute;
+  top: 21px;
+  left: 1805px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.faq {
+  position: absolute;
+  left: 707.86px;
+  width: 43.14px;
+  height: 21px;
+}
+.contactUs,
+.faq,
+.home {
+  top: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.home {
+  position: absolute;
+  left: 0;
+  width: 55.3px;
+  height: 21px;
+  cursor: pointer;
+}
+.contactUs {
+  left: 497.72px;
+  width: 102.86px;
+}
+.contactUs,
+.faqParent,
+.jobsResponses {
+  position: absolute;
+  height: 21px;
+}
+.jobsResponses {
+  top: 0;
+  left: 199.09px;
+  font-weight: 600;
+  color: var(--color-mediumseagreen);
+  display: inline-block;
+  width: 169.22px;
+}
+.faqParent {
+  top: 40px;
+  left: 585px;
+  width: 751px;
+}
+.companyName,
+.logout {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.companyName {
+  top: 25px;
+  left: 21px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-mediumseagreen);
+  width: 434px;
+  height: 56px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logout {
+  top: 40px;
+  left: 1693px;
+  color: var(--color-red);
+  width: 60px;
+  height: 17px;
+  cursor: pointer;
+}
+.center,
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 103px;
+}
+.center {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 813px;
+  height: 714px;
+}
+.newVacanyStart {
+  position: absolute;
+  top: 60px;
+  left: 240px;
+  font-weight: 600;
+}
+.nextbuttonIcon {
+  position: absolute;
+  top: 460px;
+  left: 428px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.enterEmailId,
+.enterFirstName,
+.enterLastName,
+.enterUsername,
+.enterUsername1 {
+  position: absolute;
+  top: 362px;
+  left: 145px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 372px;
+  height: 50px;
+}
+.enterFirstName,
+.enterLastName,
+.enterUsername,
+.enterUsername1 {
+  top: 202px;
+  width: 534px;
+}
+.enterFirstName,
+.enterLastName,
+.enterUsername1 {
+  top: 262px;
+}
+.enterFirstName,
+.enterLastName {
+  top: 100px;
+  width: 250px;
+}
+.enterLastName {
+  left: 429px;
+}
+.jobTags {
+  position: absolute;
+  top: 341px;
+  left: 145px;
+}
+.jobDescription,
+.jobPoc,
+.jobTitle {
+  position: absolute;
+  top: 179px;
+  left: 145px;
+}
+.jobPoc,
+.jobTitle {
+  top: 72px;
+}
+.jobPoc {
+  left: 435px;
+}
+.getStartedBy,
+.next {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+}
+.getStartedBy {
+  top: 0;
+  font-size: var(--font-size-6xl);
+  width: 813px;
+}
+.next {
+  top: 113px;
+  width: 66px;
+}
+.addCustomTags,
+.enterPassword {
+  position: absolute;
+  left: 184px;
+  width: 140px;
+}
+.enterPassword {
+  top: 0;
+  border-radius: 0 0 var(--br-xl) 0;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-mediumseagreen);
+  box-sizing: border-box;
+  height: 50px;
+}
+.addCustomTags {
+  top: 17px;
+  font-size: var(--font-size-mini);
+  font-weight: 300;
+  display: inline-block;
+}
+.cutomTags {
+  position: absolute;
+  top: 362px;
+  left: 355px;
+  width: 324px;
+  height: 143px;
+  font-size: var(--font-size-6xl);
+}
+.newjob1,
+.newjobform {
+  position: absolute;
+  width: 813px;
+}
+.newjobform {
+  top: 125px;
+  left: 0;
+  height: 520px;
+  text-align: center;
+  font-size: var(--font-size-mini);
+}
+.newjob1 {
+  top: 215px;
+  left: 554px;
+  height: 714px;
+}
+.newJobpage1 {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

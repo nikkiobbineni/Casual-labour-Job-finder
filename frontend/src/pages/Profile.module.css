@@ -1,0 +1,369 @@
+.navbar1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 100vw;
+  height: 103px;
+}
+.profileImageIcon {
+  position: absolute;
+  top: 21px;
+  left: 90vw;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.faq {
+  position: absolute;
+  left: 40vw;
+  width: 2vw;
+  height: 21px;
+}
+.contactUs,
+.faq,
+.home {
+  top: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.home {
+  position: absolute;
+  left: 0;
+  color: var(--color-mediumseagreen);
+  width: 51px;
+  height: 21px;
+  cursor: pointer;
+}
+.contactUs {
+  left: 0;
+  width: 102.86px;
+}
+.contactUs,
+.faqParent,
+.jobsResponses {
+  position: absolute;
+  padding: 2px 5vw;
+  left: 20vw;
+  height: 21px;
+}
+.jobsResponses {
+  top: 0;
+  left: 5vw;
+  font-weight: 600;
+  display: inline-block;
+  width: 30vw;
+}
+.faqParent {
+  top: 40px;
+  left: 25vw;
+  width: 30vw;
+}
+.companyName,
+.logout {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.companyName {
+  top: 25px;
+  left: 21px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-mediumseagreen);
+  width: 17vw;
+  height: 56px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logout {
+  top: 40px;
+  left: 75vw;
+  color: var(--color-red);
+  width: 60px;
+  height: 17px;
+  cursor: pointer;
+}
+.navbar,
+.profileChild {
+  position: absolute;
+  top: 0;
+}
+.navbar {
+  left: -1px;
+  width: 100vw;
+  height: 103px;
+  text-align: left;
+}
+.profileChild {
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 991px;
+  height: 482px;
+}
+.div,
+.div1,
+.div2,
+.ellipseIcon,
+.profileInner,
+.profileItem {
+  position: absolute;
+  top: 438px;
+  left: 16px;
+  width: 35px;
+  height: 35px;
+}
+.div,
+.div1,
+.div2,
+.ellipseIcon,
+.profileInner {
+  left: 376px;
+}
+.div,
+.div1,
+.div2,
+.ellipseIcon {
+  left: 756px;
+}
+.div,
+.div1,
+.div2 {
+  top: 446px;
+  left: 23px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 22px;
+  height: 19px;
+}
+.div1,
+.div2 {
+  top: 447px;
+  left: 375px;
+  font-size: var(--font-size-mini);
+  width: 37px;
+}
+.div2 {
+  left: 755px;
+}
+.icon,
+.profileImageIcon1 {
+  position: absolute;
+  object-fit: cover;
+}
+.icon {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  width: 991px;
+  height: 248px;
+}
+.profileImageIcon1 {
+  top: 181px;
+  left: 436px;
+  width: 120px;
+  height: 120px;
+}
+.emmaPoole {
+  position: relative;
+  top: 321px;
+  left: 0px;
+  font-size: 40px;
+}
+.emmapoole,
+.totalJobsPosted {
+  position: absolute;
+  top: 371px;
+  left: 450px;
+}
+.totalJobsPosted {
+  top: 446px;
+  left: 57px;
+}
+.responsesReceived {
+  position: absolute;
+  top: 445px;
+  left: 416px;
+}
+.profile1,
+.totalPeopleHired {
+  position: absolute;
+  top: 445px;
+  left: 797px;
+}
+.profile1 {
+  top: 149px;
+  left: 469px;
+  width: 991px;
+  height: 482px;
+  font-size: var(--font-size-xl);
+}
+.editprofileChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 549px;
+  height: 338px;
+}
+.emailid,
+.firstname,
+.lastname,
+.password,
+.username {
+  position: absolute;
+  top: 102px;
+  left: 209px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 321px;
+  height: 37px;
+}
+.emailid,
+.firstname,
+.lastname,
+.password {
+  top: 42px;
+  width: 156px;
+}
+.emailid,
+.lastname,
+.password {
+  left: 381px;
+}
+.emailid,
+.password {
+  top: 162px;
+  left: 209px;
+  width: 321px;
+}
+.password {
+  top: 222px;
+}
+.name,
+.username1 {
+  position: absolute;
+  top: 112px;
+  left: 53px;
+}
+.name {
+  top: 52px;
+}
+.emma,
+.emmapoole1,
+.poole {
+  position: absolute;
+  top: 112px;
+  left: 250px;
+}
+.emma,
+.poole {
+  top: 52px;
+  left: 269px;
+}
+.poole {
+  left: 440px;
+}
+.div3,
+.emmapoolegmailcom {
+  position: absolute;
+  top: 173px;
+  left: 255px;
+}
+.div3 {
+  top: 232px;
+  left: 250px;
+}
+.editChild,
+.emailId,
+.password1 {
+  position: absolute;
+  top: 173px;
+  left: 53px;
+}
+.editChild,
+.password1 {
+  top: 233px;
+}
+.editChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumseagreen);
+  width: 100px;
+  height: 32px;
+}
+.edit1 {
+  position: absolute;
+  top: 7px;
+  left: 36px;
+  font-weight: 600;
+}
+.deleteChild,
+.edit {
+  position: absolute;
+  width: 100px;
+  height: 32px;
+}
+.edit {
+  top: 280px;
+  left: 256px;
+  color: var(--color-white);
+}
+.deleteChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-red);
+}
+.delete1 {
+  position: absolute;
+  top: 7px;
+  left: 26px;
+  font-weight: 600;
+}
+.delete {
+  position: absolute;
+  top: 280px;
+  left: 375px;
+  width: 100px;
+  height: 32px;
+  color: var(--color-white);
+}
+.editprofile {
+  position: absolute;
+  top: 670px;
+  left: 696px;
+  width: 549px;
+  height: 338px;
+  font-size: var(--font-size-mini);
+}
+.profile {
+  position: relative;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.inputUser{
+  background-color: var(--color-gainsboro);
+  outline: none;
+  width: 13vw;
+  padding: 4px 20px;
+  margin-left: -35px;
+  margin-top: -5px;
+  border: none;
+}
+.inputUser2{
+  outline: none;
+  background-color: var(--color-gainsboro);
+  padding: 4px 5px;
+  margin-left: -50px;
+  margin-top: -5px;
+  border: none;
+  width: 6vw;
+}

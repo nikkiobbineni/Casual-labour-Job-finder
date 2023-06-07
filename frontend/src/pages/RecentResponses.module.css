@@ -1,0 +1,535 @@
+.navbar,
+.recentResponsesChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1920px;
+  height: 103px;
+}
+.enterEmailId,
+.enterFirstName,
+.enterLastName,
+.enterUsername,
+.enterUsername1 {
+  position: absolute;
+  top: 362px;
+  left: 145px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 372px;
+  height: 50px;
+}
+.enterFirstName,
+.enterLastName,
+.enterUsername,
+.enterUsername1 {
+  top: 202px;
+  width: 534px;
+}
+.enterFirstName,
+.enterLastName,
+.enterUsername1 {
+  top: 262px;
+}
+.enterFirstName,
+.enterLastName {
+  top: 100px;
+  width: 250px;
+}
+.enterLastName {
+  left: 429px;
+}
+.recentResponsesChild {
+  top: 532px;
+  left: 1522px;
+  border-radius: var(--br-3xs);
+  width: 336px;
+  height: 448px;
+}
+.profileImageIcon {
+  position: absolute;
+  top: 21px;
+  left: 1805px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.profile1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 336px;
+  height: 336px;
+}
+.profileImageIcon1 {
+  position: absolute;
+  top: 71px;
+  left: 123px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+.emmaPoole {
+  position: absolute;
+  top: 175px;
+  left: 118px;
+  font-weight: 600;
+}
+.editProfileRectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumseagreen);
+  width: 298px;
+  height: 45px;
+}
+.editProfile {
+  position: absolute;
+  top: 12px;
+  left: 104px;
+  font-weight: 600;
+}
+.editprofile {
+  position: absolute;
+  top: 273px;
+  left: 19px;
+  width: 298px;
+  height: 45px;
+  cursor: pointer;
+  color: var(--color-white);
+}
+.profile {
+  position: absolute;
+  top: 146px;
+  left: 1522px;
+  width: 336px;
+  height: 336px;
+}
+.lefttaskbarChild,
+.lefttaskbarItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 581px;
+  height: 70px;
+}
+.lefttaskbarItem {
+  top: 14px;
+  left: 300px;
+  background-color: var(--color-black);
+  width: 252px;
+  height: 42px;
+}
+.recentResponses1,
+.recentlyPosted {
+  position: absolute;
+  top: 24px;
+  font-weight: 600;
+  display: inline-block;
+  height: 21px;
+}
+.recentlyPosted {
+  left: 77px;
+  width: 134px;
+  cursor: pointer;
+}
+.recentResponses1 {
+  left: 357px;
+  color: var(--color-gainsboro);
+  width: 157px;
+}
+.lefttaskbar {
+  position: absolute;
+  top: 146px;
+  left: 30px;
+  width: 581px;
+  height: 70px;
+}
+.faq {
+  left: 707.86px;
+  width: 43.14px;
+}
+.contactUs,
+.faq,
+.home,
+.jobsResponses {
+  position: absolute;
+  top: 0;
+  font-weight: 600;
+  display: inline-block;
+  height: 21px;
+}
+.home {
+  left: 0;
+  color: var(--color-mediumseagreen);
+  width: 55.3px;
+}
+.contactUs,
+.jobsResponses {
+  left: 497.72px;
+  width: 102.86px;
+}
+.jobsResponses {
+  left: 199.09px;
+  width: 169.22px;
+}
+.faqParent,
+.groupChild {
+  position: absolute;
+  top: 40px;
+  left: 585px;
+  width: 751px;
+  height: 21px;
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 581px;
+  height: 125px;
+}
+.jobTitle {
+  position: absolute;
+  top: 16.62px;
+  left: 120px;
+  font-weight: 600;
+  display: inline-block;
+  width: 72px;
+  height: 13.96px;
+}
+.pm18012023 {
+  font-weight: 300;
+}
+.mostRecentResponseContainer {
+  position: absolute;
+  top: 51px;
+  left: 120px;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  width: 340px;
+  height: 21px;
+}
+.viewAllResponses {
+  position: absolute;
+  top: 84px;
+  left: 29px;
+  font-weight: 600;
+  display: inline-block;
+  width: 523px;
+  height: 22px;
+}
+.teamwork2Icon {
+  position: absolute;
+  top: 17px;
+  left: 29px;
+  width: 67px;
+  height: 67px;
+  object-fit: cover;
+}
+.groupDiv,
+.rectangleContainer,
+.rectangleGroup,
+.rectangleParent {
+  position: absolute;
+  top: 266px;
+  left: 30px;
+  width: 581px;
+  height: 125px;
+  cursor: pointer;
+}
+.groupDiv,
+.rectangleContainer,
+.rectangleGroup {
+  top: 439px;
+  left: 32px;
+}
+.groupDiv,
+.rectangleContainer {
+  top: 785px;
+}
+.groupDiv {
+  top: 612px;
+}
+.searchbarChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 813px;
+  height: 70px;
+}
+.search1Icon,
+.searchbarItem {
+  position: absolute;
+  top: 11px;
+  left: 749px;
+  width: 48px;
+  height: 48px;
+}
+.search1Icon {
+  top: 19px;
+  left: 758px;
+  width: 31px;
+  height: 31px;
+  object-fit: cover;
+}
+.searchbar {
+  position: absolute;
+  top: 146px;
+  left: 660px;
+  width: 813px;
+  height: 70px;
+}
+.companyName {
+  top: 25px;
+  left: 21px;
+  font-size: var(--font-size-17xl);
+  font-weight: 600;
+  color: var(--color-mediumseagreen);
+  display: inline-block;
+  width: 434px;
+  height: 56px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.center,
+.companyName,
+.logout {
+  position: absolute;
+}
+.logout {
+  top: 40px;
+  left: 1693px;
+  font-weight: 600;
+  color: var(--color-red);
+  display: inline-block;
+  width: 59px;
+  height: 17px;
+  cursor: pointer;
+}
+.center {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 813px;
+  height: 714px;
+}
+.newVacanyStart {
+  position: absolute;
+  top: 60px;
+  left: 240px;
+  font-weight: 600;
+}
+.dropdownTagsChild,
+.enterJobDescription,
+.enterJobDescription1,
+.enterJobPoc,
+.enterJobTags,
+.enterJobTitle {
+  position: absolute;
+  top: 362px;
+  left: 145px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 372px;
+  height: 50px;
+}
+.dropdownTagsChild,
+.enterJobDescription,
+.enterJobDescription1,
+.enterJobPoc,
+.enterJobTitle {
+  top: 202px;
+  width: 534px;
+}
+.dropdownTagsChild,
+.enterJobDescription1,
+.enterJobPoc,
+.enterJobTitle {
+  top: 262px;
+}
+.dropdownTagsChild,
+.enterJobPoc,
+.enterJobTitle {
+  top: 100px;
+  width: 250px;
+}
+.dropdownTagsChild,
+.enterJobPoc {
+  left: 429px;
+}
+.dropdownTagsChild {
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 30px;
+  height: 30px;
+}
+.dropdownTags,
+.dropdownTagsItem {
+  position: absolute;
+  top: 10px;
+  left: 6.34px;
+  width: 17.32px;
+  height: 15px;
+}
+.dropdownTags {
+  top: 372px;
+  left: 479px;
+  width: 30px;
+  height: 30px;
+}
+.jobDescription,
+.jobTags {
+  position: absolute;
+  top: 341px;
+  left: 145px;
+}
+.jobDescription {
+  top: 179px;
+}
+.getStartedBy,
+.jobPoc,
+.jobTitle4 {
+  position: absolute;
+  top: 72px;
+  left: 145px;
+}
+.getStartedBy,
+.jobPoc {
+  left: 435px;
+}
+.getStartedBy {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  width: 813px;
+}
+.postbutton {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumseagreen);
+  height: 60px;
+  cursor: pointer;
+}
+.post,
+.post1,
+.postbutton {
+  position: absolute;
+  width: 250px;
+}
+.post1 {
+  top: 15px;
+  left: 0;
+  display: inline-block;
+}
+.post {
+  top: 460px;
+  left: 276px;
+  height: 60px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.rectangle {
+  top: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-xl) 0;
+  background-color: var(--color-gainsboro);
+  border: 1px solid var(--color-mediumseagreen);
+  box-sizing: border-box;
+  height: 50px;
+}
+
+.addCustomTags,
+.cutomTags,
+.enterPassword {
+  position: absolute;
+  width: 140px;
+}
+.addCustomTags {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  font-weight: 150;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 0 0 var(--br-xl) 0;
+  background-color: var(--color-mediumseagreen);
+  color: white;
+  border: 2px solid green;
+  padding: 8px;
+  font-size: 1rem;
+}
+.cutomTags {
+  top: 362px;
+  left: 539px;
+  height: 50px;
+}
+.centerpiece,
+.newjobform {
+  position: absolute;
+  width: 813px;
+}
+.newjobform {
+  top: 125px;
+  left: 0;
+  height: 520px;
+  text-align: center;
+  font-size: var(--font-size-mini);
+}
+.centerpiece {
+  top: 266px;
+  left: 660px;
+  height: 714px;
+}
+.groupChild1,
+.viewAllRecent {
+  position: absolute;
+  left: 0;
+  width: 423px;
+}
+.groupChild1 {
+  top: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumseagreen);
+  height: 46px;
+}
+.viewAllRecent {
+  top: 10px;
+  font-weight: 600;
+  display: inline-block;
+  height: 26px;
+}
+.rectangleParent1 {
+  position: absolute;
+  top: 941px;
+  left: 111px;
+  width: 423px;
+  height: 46px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.recentResponses {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

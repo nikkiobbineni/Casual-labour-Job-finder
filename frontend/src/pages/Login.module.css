@@ -1,0 +1,144 @@
+.imageIcon {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 46vw;
+  height: 880px;
+  overflow: hidden;
+}
+.subtext,
+.titletext {
+  position: absolute;
+  display: inline-block;
+}
+.subtext {
+  top: 153px;
+  left: 0;
+  font-weight: 300;
+  width: 50vw;
+  height: 24px;
+}
+.titletext {
+  top: 104px;
+  left: 0;
+  font-size: var(--font-size-16xl);
+  width: 50vw;
+  height: 37px;
+}
+.leftsection {
+  background-color: var(--color-mediumseagreen);
+}
+.leftsection,
+.leftsectionWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 1080px;
+}
+.enterEmailUsername,
+.enterpassword {
+  position: absolute;
+  top: 89px;
+  left: 0;
+  padding: 3px 20px;
+  font-size: 20px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  width: 500px;
+  height: 60px;
+}
+.enterpassword {
+  top: 209px;
+  height: 59px;
+}
+.emailId,
+.login1 {
+  position: absolute;
+  top: 71px;
+  left: 0;
+  display: inline-block;
+  width: 4vw;
+  height: 18px;
+}
+.login1 {
+  top: 0;
+  font-size: var(--font-size-31xl);
+  width: 136px;
+  height: 61px;
+}
+.dontHaveAn,
+.password,
+.signUp {
+  display: inline-block;
+  height: 18px;
+}
+.password {
+  position: absolute;
+  top: 191px;
+  left: 0;
+  width: 70px;
+}
+.dontHaveAn,
+.signUp {
+  top: 403px;
+}
+.dontHaveAn {
+  position: absolute;
+  right: 11vw;
+  width: 166px;
+}
+.signUp {
+  right: 6vw;
+  text-decoration: underline;
+  color: var(--color-mediumseagreen);
+  width: 56px;
+  cursor: pointer;
+}
+.login2,
+.login3,
+.signUp {
+  position: absolute;
+}
+.login3 {
+  top: 15px;
+  left: 168px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 65px;
+  height: 30px;
+}
+.login2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-mediumseagreen);
+  top: 328px;
+  left: 50px;
+  border-radius: var(--br-3xs);
+  width: 400px;
+  height: 60px;
+}
+.loginform {
+  position: absolute;
+  top: 329px;
+  right: 10vw;
+  width: 500px;
+  height: 421px;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+}
+.login {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
